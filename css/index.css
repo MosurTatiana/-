@@ -1,5 +1,13 @@
 .menu-items {
+    min-height: 1px;
+    background-size: cover;
+    background-position: 30% 40%;
+    display: flex;
+    justify-content: first baseline;
     border: 1px solid rgb(2, 41, 2);
+    background-color: rgb(3, 44, 3);
+
+
 }
 
 img {
@@ -7,5 +15,8 @@ img {
 }
 
 .baner {
+    min-height: 100px;
+    background-size: cover;
+    background-color: rgb(197, 181, 181);
     border-block-end-color: 100px rgb(236, 205, 205)
 }
