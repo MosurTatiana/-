@@ -14,27 +14,12 @@
       <a href="#home">Главная</a>
       <a href="#aboutus">О Нас</a>
       <a href="#flowers">Цветы</a>
-          <div> 
-            <ul>
-              <li>Букеты</li>
-              <li>Букеты в коробке</li>
-            </ul>
-          </div>
       <a href="#ourbestsellers">Наши бестселлеры</a>
-      <a href="#contacts">Контакты</a>
-      <a href="language">язык</a>
-          <div> 
-            <ul>
-              <li>EN</li>
-              <li>UA</li>
-              <li>RU</li>
-            </ul>
-          </div>
-      </div>
+      <a href="#contacts" data-toggle="modal" data-target="#products-modal">Контакты</a> 
+    </div> 
     </nav>
-    <div>
-    <hr class="baner">
-      <h1>Flowers For YOU</h1>
+    <div class="baner">
+      <h1 >Flowers For YOU</h1>
       <h2>made with love</h2>
       <h2>У цветов не бывает будней, они всегда одеты празднично</h2>
         <p>Малкольм де Шазаль</p>
@@ -85,27 +70,43 @@
         <button class="button">ПЕРЕЙТИ К ПОКУПКАМ</button>
     </div>
     <div id="aboutflowers">
-      <h3>РОЗА</h3>
-      <p>символ красоты, поскольку утонченность его нежных лепестков гармонично сочетается с острыми шипами</p>
-      <img src="img/flowers/rose.jpg" alt="Белая роза">
-
-      <h3>ЛИЛИЯ</h3>
-      <p>символ нежности - это цветок, который одним своим названием передает всю трогательность и красоту. </p>
-      <img src="img/flowers/lily.jpg" alt="Белая лилия">
-
-      <h3>ГОРТЕНЗИЯ</h3>
-      <p>считается символом добродушия, она дарит тепло, заряжает позитивной энергией людей, наполняет радостью и легкостью</p>
-      <img src="img/flowers/hydrangea.jpg" alt="Голубая гортензия.jpg">
-
-      <h3>ТЮЛЬПАН</h3>
-      <p>символом любви, процветания, гармонии символизирует щедрость вашего сердца, и богатство души</p>
-      <img src="img/flowers/tulip.jpg" alt="Белый тюльпан">
-
-      <h3>ЭУСТОМА</h3>
-      <p>символом нежности и изысканности, бодрости и защиты</p>
-      <img src="img/flowers/eustoma.jpeg" alt="Белая эустома">
-
+      <div class="card">
+        <div class="card-body">
+          <h3>РОЗА</h3>
+          <p>символ красоты, поскольку утонченность его нежных лепестков гармонично сочетается с острыми шипами</p>
+          <img src="img/flowers/rose.jpg" alt="Белая роза">
+        </div>
+      </div>
+      <div class="card">
+        <div class="card-body">
+          <h3>ЛИЛИЯ</h3>
+          <p>символ нежности - это цветок, который одним своим названием передает всю трогательность и красоту. </p>
+          <img src="img/flowers/lily.jpg" alt="Белая лилия">
+        </div>  
+      </div>     
+      <div class="card">
+        <div class="card-body"> 
+          <h3>ГОРТЕНЗИЯ</h3>
+          <p>считается символом добродушия, она дарит тепло, заряжает позитивной энергией людей, наполняет радостью и легкостью</p>
+          <img src="img/flowers/hydrangea.jpg" alt="Голубая гортензия.jpg">
+        </div>
+      </div>  
+      <div class="card">
+        <div class="card-body">
+          <h3>ТЮЛЬПАН</h3>
+          <p>символом любви, процветания, гармонии символизирует щедрость вашего сердца, и богатство души</p>
+          <img src="img/flowers/tulip.jpg" alt="Белый тюльпан">
+        </div>
+      </div>        
+      <div class="card">
+        <div class="card-body">
+          <h3>ЭУСТОМА</h3>
+          <p>символом нежности и изысканности, бодрости и защиты</p>
+          <img src="img/flowers/eustoma.jpeg" alt="Белая эустома">
+        </div>  
+      </div>  
     </div>
+
     <div id="ourbestsellers">
       <hr class="ourbestsellers">
       <h1>Наши Бестселлеры</h1>
@@ -124,7 +125,7 @@
         <img src="img/bestsellers/charm.jpeg" alt="ЭУСТОМА с розами">
         <p>"Шарм"<p>
         <p>950грн<p>
-        <button cclass="button">КУПИТЬ</button>
+        <button class="button">КУПИТЬ</button>
 
         <img src="img/bestsellers/isabel.jpeg" alt="ЭУСТОМА">
         <p>"Изабелла"<p>
@@ -155,26 +156,78 @@
 
     </div>
     <div>
-<hr>
-    <div class="achievements">
-        <a href="">259+</a>
-        <a href="">180+</a>
-        <a href="">130+</a>
-        <a href="">950+</a>
-    </div>
-    <div class="achievements">
-        <a href="">ВИДОВ ЦВЕТОВ</a>
-        <a href="">БУКЕТОВ В МЕСЯЦ</a>
-        <a href="">ДОСТАВОК В МЕСЯЦ</a>
-        <a href="">ДОВОЛЬНЫХ КЛИЕНТОВ</a>
-    </div>
-        
-
+      <section class="numbers">
+        <h6>Наши достижения</h6>
+	    <div class="count">
+		  <p class="numbers-text">259+ <br> ВИДОВ ЦВЕТОВ</p>
+		</div>
+		<div class="count">
+		  <p class="numbers-text">180+ <br> БУКЕТОВ В МЕСЯЦ</p>
+		</div>
+		<div class="count">
+		  <p class="numbers-text">130+ <br> ДОСТАВОК В МЕСЯЦ</p>
+		</div>
+		<div class="count">
+		  <p class="numbers-text">950+ <br> ДОВОЛЬНЫХ КЛИЕНТОВ</p>
+		</div>
+	</section>
     </div>
       
-  </main>
-  <footer>
-  </footer>
+  <section class="contacts">
+	<div class="adress">
+	  <h3>―Flowers For YOU―</h3>
+		<h4>Контакты</h4>
+		<p>Адрес: Днепр, проспект Д. Яворницкого 65</p>
+		<p>График: ПН-ВС (00-24)</p>
+		<p>Контакты: +3 (093) 000 00 84   flowersforyou@email.com</p>
+
+		<iframe src="https://www.google.com/maps/place/%D0%BF%D1%80%D0%BE%D1%81%D0%BF%D0%B5%D0%BA%D1%82+%D0%94%D0%BC%D0%B8%D1%82%D1%80%D0%B8%D1%8F+%D0%AF%D0%B2%D0%BE%D1%80%D0%BD%D0%B8%D1%86%D0%BA%D0%BE%D0%B3%D0%BE,+65,+%D0%94%D0%BD%D0%B8%D0%BF%D1%80%D0%BE,+%D0%94%D0%BD%D0%B5%D0%BF%D1%80%D0%BE%D0%BF%D0%B5%D1%82%D1%80%D0%BE%D0%B2%D1%81%D0%BA%D0%B0%D1%8F+%D0%BE%D0%B1%D0%BB%D0%B0%D1%81%D1%82%D1%8C,+49000/@48.4648956,35.0420253,475m/data=!3m1!1e3!4m5!3m4!1s0x40dbe2e70a031357:0xe31ba816bae5b830!8m2!3d48.4648956!4d35.044214"></iframe>
+	</div>
+	<div class="contact-form ">
+	  <h4>Отправить запрос</h4>
+		<p>Если вы хотите подарить счастье, посетите наш онлайн или офлайн магазин, оставьте нам сообщение.</p>
+		<form action="YOUR-ADDRESS-HERE" method="POST">
+		  <label>
+            <input type="text" placeholder="Ваше имя*" required name="user-name">
+          </label>
+		    <br>
+		  <label>
+            <input type="text" placeholder="Телефон*" required name="user-number">
+          </label>
+		    <br>
+		  <label>
+            <input type="text" placeholder="E-mail*" required name="user-email">
+          </label>
+            <br>
+		  <label>
+            <input type="text" placeholder="Дата*" required name="user-email">
+          </label>
+			<br>
+		  <label>
+            <input type="text" placeholder="Краткий текст" required name="user-message">
+          </label>
+			<br>
+		    <input type="submit" class="green-button" value="Отправить">
+        </form>
+	</div>
+  </section>
+ </main>
+
+<footer>
+  <nav>
+    <div class="menu-items">
+      <a href="#aboutus">О Нас</a>
+      <a href="#flowers">Доставка</a>
+      <a href="#ourbestsellers">Наши бестселлеры</a>
+      <a href="#contacts">Отзывы</a>
+      <a href="#contacts" data-toggle="modal" data-target="#products-modal">Свяжитесь с нами</a>
+	</div>
+	//<div class="clock"></div> 
+	<hr>
+	<p>+38 093 000 00 84</p>
+				
+  </nav>
+	</footer>
     
 </body>
 </html>

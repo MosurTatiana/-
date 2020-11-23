@@ -1,22 +1,20 @@
 .menu-items {
-    min-height: 1px;
+    min-height: 30px;
     background-size: cover;
     background-position: 30% 40%;
     display: flex;
     justify-content: first baseline;
-    border: 1px solid rgb(2, 41, 2);
+    border: 5px solid rgb(2, 41, 2);
     background-color: rgb(3, 44, 3);
-
-
-}
-
-img {
-    max-width: width 3px; align-content: 300px;
+    font-style: normal;
+    font-weight: bold;
+    font-stretch: ultra-expanded;
+    -webkit-text-fill-color: aliceblue Sans, sans-serif, white;
 }
 
 .baner {
     min-height: 100px;
     background-size: cover;
-    background-color: rgb(197, 181, 181);
-    border-block-end-color: 100px rgb(236, 205, 205)
+    background-color: #e9cdea;
+    border-block-end-color: 900px #e9cdea;
 }
