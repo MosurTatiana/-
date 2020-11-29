@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2? family = Cormorant + Infant: ital, wght @ 0,300; 0,400; 1,300; 1,400; 1,600; 1,700 & display = swap');
+@import url('https://fonts.googleapis.com/css2?family=Cormorant+Infant:ital,wght@0,300;0,400;1,300;1,400;1,600;1,700&display=swap');
     :root {
         font-family: 'Open Sans', sans-serif;
         --main-color: black;
@@ -104,7 +104,6 @@
     min-height: 100px;
     background-size: cover;
     background-color: #e9cdea;
-    border-block-end-color: 900px #e9cdea;
 }
 
 .banner h1 {
@@ -153,7 +152,7 @@
     font-size: 12px;
     display: flex;
     justify-content: space-around;
-    color: --main-color;
+    color: var(--main-color);
     
 } 
 
@@ -224,9 +223,10 @@
   margin: 10px;
 }
 
-@media (max-width: 884px) {
+@media (max-width: 521px) {
     .main-page {
-        display: none;
+        width: 275px;
+        height: 275px;
    } 
 }
 
@@ -275,6 +275,25 @@
 
 }
 
+ @media (min-width: 521px) {
+        .pphoto-projects {
+            width: 275px;
+            height: 275px;
+        }
+    }
+
+ @media (max-width: 521px) {
+        .projects-page {
+        padding-bottom: 100px;
+        padding-top: 100px;
+        }
+    }
+
+@media (max-width: 489px) {
+        h2 {
+            font-size: 45px;
+        }
+    }
 .about-us {
         display: flex;
         padding-bottom: 25px;
